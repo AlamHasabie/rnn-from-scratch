@@ -4,10 +4,10 @@ import numpy as np
 
 
 # Params
-sequence = 10
-input_size = 20
+sequence = 5
+input_size = 5
 hidden_size = 5
-output_size = 10
+output_size = 3
 skenario = 3
 verbose = True
 

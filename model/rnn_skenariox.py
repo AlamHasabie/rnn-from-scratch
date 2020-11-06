@@ -47,7 +47,6 @@ class RNN:
 		elif (self.__skenario == 2) :
 			temp_hidden_weight = [ [ 1 for i in range(self.__hidden_state_size) ] for j in range(self.__hidden_state_size) ]
 		else :
-			print("skenario 3")
 			temp_hidden_weight = np.random.rand(self.__hidden_state_size, self.__hidden_state_size)		
 		self.__hidden_matrix = temp_hidden_weight
 		#self.__hidden_matrix = np.random.rand(self.__hidden_state_size, self.__hidden_state_size)
